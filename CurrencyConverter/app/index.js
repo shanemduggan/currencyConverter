@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 
 import Navigator from './config/routes';
 import { AlertProvider } from './components/Alert';
-import store from '../config/store';
+import store from './config/store';
 
 EStyleSheet.build({
     $primaryBlue: '#4F6D7A',
